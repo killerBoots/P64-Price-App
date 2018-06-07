@@ -1,0 +1,27 @@
+{
+  "name": "p64resource",
+  "version": "1.0.0",
+  "description": "Price scraper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killerBoots/P64-Price-App.git"
+  },
+  "keywords": [
+    "Price",
+    "scraper"
+  ],
+  "author": "Nate and Chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/killerBoots/P64-Price-App/issues"
+  },
+  "homepage": "https://github.com/killerBoots/P64-Price-App#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3"
+  }
+}
