@@ -1,0 +1,35 @@
+{
+  "name": "P64-Price-App",
+  "version": "0.1.0",
+  "description": "Grab avg prices for the P64",
+  "main": "index.js",
+  "author": "Nate and Chris",
+  "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/killerBoots/P64-Price-App.git"
+    },
+  "bugs": {
+    "url": "https://github.com/killerBoots/P64-Price-App/issues"
+  },
+  "homepage": "https://github.com/killerBoots/P64-Price-App#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.8.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "express": "^4.16.1",
+    "request": "^2.83.0"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "",
+    "test": "",
+    "dev": "nodemon src/index.js --exec babel-node --presets es2015,stage-2"
+  }
+}
